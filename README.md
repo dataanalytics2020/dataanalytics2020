@@ -1,23 +1,3 @@
-## 📊 GitHub統計
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats-three-pearl-83.vercel.app/api?username=dataanalytics2020&show_icons=true&theme=onedark&hide_border=true&include_all_commits=true&locale=ja)
-
-![Top Languages](https://github-readme-stats-three-pearl-83.vercel.app/api/top-langs/?username=dataanalytics2020&layout=compact&theme=onedark&hide_border=true&langs_count=8&locale=ja)
-
-<sub>※ 全期間の累積データです。最近は TypeScript × Next.js × Supabase × Vercel で開発中 🚀</sub>
-
-</div>
-
-## 🔥 連続コミット記録
-
-<div align="center">
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=dataanalytics2020&theme=onedark&hide_border=true&locale=ja)](https://git.io/streak-stats)
-
-</div>
-
 # 採用担当者の方へ。お読みいただきありがとうございます！
 
 ## 🚀 自己紹介
@@ -52,14 +32,6 @@
 - **YouTubeディレクター2年担当**: 登録者数0→168万人（パチンコ業界No.1チャンネル/スロパチステーションの初代ディレクターを担当、自分が作成した動画の最高再生数は1本で1000万回越え）
 - **SNSマーケティング含む企画職3年経験**: 商材の企画からLINE@やXなどマーケティング担当や社内デザインを担当(adobeXD,Photoshopも使えます)
 - **Pythonを用いた社内業務全体の効率化を4年担当**: 年間3000時間以上削減し表彰を獲得（社内用webアプリ/RPA/Windows用GUI開発）
-
-## 🏆 GitHubトロフィー
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=dataanalytics2020&theme=onedark&no-frame=true&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
 
 ## 🤖 Claude Code開発スタイル
 
@@ -115,6 +87,34 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+
+## 📊 GitHub統計
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats-three-pearl-83.vercel.app/api?username=dataanalytics2020&show_icons=true&theme=onedark&hide_border=true&include_all_commits=true&locale=ja)
+
+![Top Languages](https://github-readme-stats-three-pearl-83.vercel.app/api/top-langs/?username=dataanalytics2020&layout=compact&theme=onedark&hide_border=true&langs_count=8&locale=ja)
+
+<sub>※ 全期間の累積データです。最近は TypeScript × Next.js × Supabase × Vercel で開発中 🚀</sub>
+
+</div>
+
+## 🏆 GitHubトロフィー
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=dataanalytics2020&theme=onedark&no-frame=true&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+## 🔥 連続コミット記録
+
+<div align="center">
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=dataanalytics2020&theme=onedark&hide_border=true&locale=ja)](https://git.io/streak-stats)
+
+</div>
 
 ## 🌟 個人開発プロジェクト・実績
 
