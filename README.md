@@ -17,15 +17,15 @@
 - **テストは苦手です**
 
 **現在取り組んでいること**:
-- **Claude Code MAX ✖︎20** 歴1年弱 + Cursor で実務でDjangoで社内用CMSやAIを使った文章校正ツールなど開発中(要件定義~保守運用)
-- 個人開発では TypeScript × Next.js × Supabase × Vercelに夢中、モダンフロントエンド開発を追求中
-- TypeScript製の生成AIフレームワーク「Mastra」でRAG・マルチエージェントシステムで明日のオススメのパチンコ店のレコメンドシステムを開発予定
-- 現在はAIreadyのためのパチンコ業界のデータをPythonで網羅的に取得中(seleniumでスクレイピング中心)
+- **Claude Code MAX ✖︎20** 歴1年ちょっと（Claude Code リリース直後から実務・個人開発に投入してきた早期アクティブユーザー）+ Cursor で実務でDjangoで社内用CMSやAIを使った文章校正ツールなど開発中(要件定義~保守運用)
+- 個人開発の **[スロマップAI](https://slo-map.com)** を一人で運用中。**登録会員 約5,000人 → 有料サブスクで収益化フェーズ**に到達
+- TypeScript製のAI SDK（Vercel AI SDK）で **RAG・マルチエージェント** を実装し、「明日どこ打つ？」をその場で答える **サイト内AIチャット** を本番投入済み
+- **Vercel → Cloudflare Workers + OpenNext へ自力でインフラ移管**し、月のサーバーコストを **約9割削減**（$800規模 → 数十ドル）
 
 ### 📈 プロダクトグロースの実績（エンジニアとしての差別化要素）
 
 **個人開発**:
-- **[スロマップAI](https://slo-map.com)**: Google AdSense収益化達成 25年8月MVPリリース、現在月間PV20万PV~ 会員登録者数2000人~
+- **[スロマップAI](https://slo-map.com)**: 25年8月MVPリリース。**月間30万PV超 / 登録会員 約5,000人 / 有料プラン稼働中（課金ユーザー約50人）**。Google AdSense + 月額サブスクで収益化
 - **[個人ブログ](https://slotana777.com)**: 月間20万PV（PythonでREST APIを使ってSeleniumでスクレイピングしたデータを使って記事作成・投稿を完全自動化）
 
 **実務（2016-2024 | 株式会社ZIZAI）**:
@@ -33,10 +33,29 @@
 - **SNSマーケティング含む企画職3年経験**: 商材の企画からLINE@やXなどマーケティング担当や社内デザインを担当(adobeXD,Photoshopも使えます)
 - **Pythonを用いた社内業務全体の効率化を4年担当**: 年間3000時間以上削減し表彰を獲得（社内用webアプリ/RPA/Windows用GUI開発）
 
+---
+
+## 📊 数字で見る「スロマップAI」（2026年6月時点・ほぼ一人 × Claude Code で開発）
+
+| 指標 | 実績 |
+| --- | --- |
+| 📈 **月間PV** | **30万超**（3ヶ月連続・2026年5月は37万PV / GA4実測） |
+| 👥 **登録会員** | **約5,000人**（直近30日で +1,400人ペースで成長中） |
+| 💰 **有料プラン** | **稼働中**（月額サブスク・課金ユーザー約50人） |
+| 🔍 **SEO（1位級キーワード）** | **200本超**（順位1.5以内）。「スロマップ」「スロマップAI」は順位1.0、取材公約系で多数1位 |
+| 🌐 **検索流入** | 28日間で **クリック約6万 / 表示約14万**（Google検索） |
+| 💻 **コード規模** | 約 **39万行**（TypeScript/TSX 34万行 + SQL 242本 + Python 70本） |
+| ⚡ **開発スピード** | 約11ヶ月で **4,100コミット超 / PR・Issue 4,000本超**（1日平均12コミット） |
+| 💸 **インフラコスト** | **約9割削減**（Vercel 月$800規模 → Cloudflare Workers 数十ドル/月へ自力移管） |
+
+> 🤖 これらは **Claude Code（Opus）を相棒にしたAI駆動開発**で、企画・設計・実装・SEO・インフラ・運用までを基本一人で回した結果です。「生成AIをどこまで使い倒せるか」を実プロダクトで検証し続けています。
+
+---
+
 ## 🤖 Claude Code開発スタイル
 
 ### 開発環境・ツール
-- **Claude Code MAX ✖︎20 v2.1.107 + Opus4.7** で実務で開発中
+- **Claude Code MAX ✖︎20 + Opus4.8** で実務・個人開発の両方を推進中（リリース直後から1年ちょっと使い込んだ知見をフル活用）
 - Cursor（1.5年経験）との併用でハイブリッド開発
 - **Git worktree**で複数ブランチを並行開発（複数Claude Codeセッションを同時起動）
 
@@ -47,9 +66,9 @@
 - **GA4 & Search Console**: 日々のSEO対策・アクセス解析に活用
 
 **主な実績**:
-- **スロマップAI**: 92%の開発時間削減（Issue #392解決、Slug品質管理Agent、Sentry統合等）
+- **スロマップAI**: AI駆動で約39万行・4,100コミットを11ヶ月で構築。Slug品質管理Agent・Sentry連携・公約自動調査など多数の自律エージェントを内製
 - **実務プロジェクト**: Django + AWS Bedrock APIでRAGチャットボット・AI文章校正ツール開発
-- **自動化Agent Bot**: GitHub Actions + Gemini による自動化システム構築
+- **自動化Agent Bot**: GitHub Actions + Gemini / DeepSeek による記事生成・通知・監視の自動化システム構築
 
 **今後の展望**: この「AI駆動開発」のノウハウをチームに還元し、**エンジニアと生成AIの協業を組織として模索する企業で成長したい**と考えています。
 
@@ -79,6 +98,7 @@
 
 ### クラウド・プラットフォーム
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -93,7 +113,7 @@
 
 ![Top Languages](https://github-readme-stats-three-pearl-83.vercel.app/api/top-langs/?username=dataanalytics2020&layout=compact&theme=onedark&hide_border=true&langs_count=8&locale=ja)
 
-<sub>※ 全期間の累積データです。最近は TypeScript × Next.js × Supabase × Vercel で開発中 🚀</sub>
+<sub>※ 全期間の累積データです。最近は TypeScript × Next.js × Supabase × Cloudflare Workers で開発中 🚀</sub>
 
 </div>
 
@@ -118,14 +138,14 @@
 > 📌 **個人開発の詳細は[ピン留めされているリポジトリ](https://github.com/dataanalytics2020/slomap-ai-portfolio)からご覧ください**
 
 ### 🚀 [スロマップAI](https://slo-map.com) | [ポートフォリオ](https://github.com/dataanalytics2020/slomap-ai-portfolio)
-> Next.js + Supabase で構築したパチンコ・スロット店舗情報プラットフォーム（**Google AdSense収益化達成**）
-> **Pythonバックエンド**でデータパイプライン・スクレイピング基盤を構築
+> Next.js + Supabase で構築したパチンコ・スロット店舗情報プラットフォーム
+> **登録会員 約5,000人・有料サブスクで収益化済み**。Pythonバックエンドでデータパイプライン・スクレイピング基盤を構築
 
 <div align="center">
 
 ![スロマップAI - トップ画面](./images/top_screen.png)
 
-<sub>トップ画面 - Next.js 15 + Supabase で構築</sub>
+<sub>トップ画面 - Next.js + Supabase で構築</sub>
 
 ![スロマップAI - マップ表示](./images/map_image.png)
 
@@ -133,22 +153,22 @@
 
 </div>
 
-**技術スタック**: Next.js 15, React 19, TypeScript, Supabase, Python, Tailwind CSS
+**技術スタック**: Next.js 16, React 19, TypeScript, Supabase, Clerk, Cloudflare Workers (OpenNext), Python, Tailwind CSS
 
-**主な成果**:
+**プロダクト成果（ビジネス）**:
+- 👥 **登録会員 約5,000人**（直近30日で +1,400人ペースで成長中）
+- 💰 **有料プラン稼働中** — 月額サブスク（REGULAR/MIDDLE/BIG/GOD）で課金ユーザー約50人、Google AdSenseと合わせ収益化
+- 🔍 **SEO 1位級キーワード200本超** — 「スロマップ」等の指名検索に加え、取材公約系で多数1位。Google検索から月6万クリック超の自然流入
+- ⚙️ **AIチャット本番運用** — RAG + マルチエージェントで「明日どこ打つ？」に即回答
+
+**技術的ハイライト（エンジニアリング）**:
 - 🎯 **Lighthouse Score**: 95+/100（モバイル・デスクトップ）
 - 📈 **LCP改善**: 68%高速化（3.8秒 → 1.2秒）
-- 🗄️ **データベース最適化**: 99%クエリ速度向上（5,200ms → 50ms）
-- 🔍 **SEO対策**: Google Search Console 構造化データまで実装
-- ✨ **コード品質**: TypeScript strict mode、ESLintエラー0件
-
-**技術的ハイライト**:
-- **Claude Code**を活用した開発効率化（92%時間削減を実現）
-- Server Components + ISR でキャッシュヒット率92%達成
-- Row Level Security (RLS) によるデータベース保護
-- N+1問題解消（93%削減）
-- Supabaseスキーマからの自動TypeScript型生成
-- AI Agent開発による自動化（Slug品質管理、エラー分析等）
+- 🗄️ **データベース最適化**: 99%クエリ速度向上（5,200ms → 50ms）、N+1問題93%削減
+- ☁️ **インフラ自力移管でコスト約9割削減**: Vercel（月$800規模）→ Cloudflare Workers + OpenNext で月数十ドルへ。bundle 10MB制限・MessagePort polyfill 等のエッジ移管特有の課題も独力で解決
+- 🤖 **AI駆動開発**: 約39万行・4,100コミットを約11ヶ月でほぼ一人で構築（Claude Code活用）
+- 🔐 Row Level Security (RLS) によるデータベース保護、Supabaseスキーマからの自動TypeScript型生成
+- ✨ TypeScript strict mode、ESLintエラー0件
 
 ---
 
